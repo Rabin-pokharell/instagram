@@ -50,9 +50,11 @@ function Login() {
             Log in
           </button>
         </div>
-        <div className="hr1"></div>
-        <h3 className="myH3">or</h3>
-        <div className="hr2"></div>
+        <div className="orWala">
+          <div className="hr1"></div>
+          <h3 className="myH3">or</h3>
+          <div className="hr2"></div>
+        </div>
         <div className="otherInformation">
           <a href="https://www.facebook.com/" id="facebookLogin">
             <FontAwesomeIcon icon={faFacebook} />

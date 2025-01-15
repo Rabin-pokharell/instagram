@@ -64,14 +64,16 @@ h1 {
 #loginButton:active {
   background-color: hsl(197, 83%, 65%);
 }
-
+.orWala {
+  position: relative;
+}
 .hr1 {
   position: absolute;
   height: 1px;
   width: 90px;
   background-color: rgb(85, 85, 85);
-  top: 370px;
-  left: 215px;
+  top: 57%;
+  left: 20%;
 }
 
 .hr2 {
@@ -79,8 +81,8 @@ h1 {
   height: 1px;
   width: 90px;
   background-color: rgb(85, 85, 85);
-  top: 370px;
-  right: 215px;
+  top: 57%;
+  right: 20%;
 }
 
 .myH3 {
