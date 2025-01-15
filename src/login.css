@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+}
+
+.loginContainer {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: 400px;
+  width: 350px;
+  border: 1px solid hsla(0, 0%, 50%, 0.534);
+  text-align: center;
+}
+
+h1 {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  color: white;
+  margin: 30px;
+}
+
+#inputId {
+  margin: 3px;
+  background-color: hsla(0, 1%, 15%, 0.397);
+  border: 1px solid hsla(0, 0%, 50%, 0.534);
+  width: 250px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 3px;
+  color: white;
+}
+
+#inputPassword {
+  margin: 3px;
+  background-color: hsla(0, 1%, 15%, 0.397);
+  border: 1px solid hsla(0, 0%, 50%, 0.534);
+  width: 250px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 3px;
+  color: white;
+}
+
+#loginButton {
+  margin: 10px;
+  padding: 7px;
+  background-color: hsl(197, 83%, 35%);
+  border: none;
+  height: 30px;
+  width: 260px;
+  border-radius: 5px;
+  color: hsla(0, 0%, 100%, 0.637);
+  font-weight: bold;
+}
+
+#loginButton:hover {
+  background-color: hsl(197, 83%, 45%);
+}
+#loginButton:active {
+  background-color: hsl(197, 83%, 65%);
+}
+
+.hr1 {
+  position: absolute;
+  height: 1px;
+  width: 90px;
+  background-color: rgb(85, 85, 85);
+  top: 370px;
+  left: 215px;
+}
+
+.hr2 {
+  position: absolute;
+  height: 1px;
+  width: 90px;
+  background-color: rgb(85, 85, 85);
+  top: 370px;
+  right: 215px;
+}
+
+.myH3 {
+  color: rgb(85, 85, 85);
+}
+
+#facebookLogin {
+  text-decoration: none;
+  color: hsl(197, 83%, 35%);
+}
+
+#facebookLogin:hover {
+  color: white;
+}
+
+#facebookLogin::after {
+  text-decoration: none;
+  color: hsl(197, 83%, 35%);
+}
